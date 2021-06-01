@@ -1,0 +1,93 @@
+[
+  {
+    "model": "news.Hashtag",
+    "pk": 1,
+    "fields": {
+      "name": "classification"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 2,
+    "fields": {
+      "name": "pattern"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 3,
+    "fields": {
+      "name": "recognition"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 4,
+    "fields": {
+      "name": "biometrics"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 5,
+    "fields": {
+      "name": "investigation"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 6,
+    "fields": {
+      "name": "image"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 7,
+    "fields": {
+      "name": "processing"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 8,
+    "fields": {
+      "name": "text"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 9,
+    "fields": {
+      "name": "regression"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 10,
+    "fields": {
+      "name": "image"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 11,
+    "fields": {
+      "name": "logistic"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 12,
+    "fields": {
+      "name": "image"
+    }
+  },
+  {
+    "model": "news.Hashtag",
+    "pk": 13,
+    "fields": {
+      "name": "neuralnet"
+    }
+  }
+]

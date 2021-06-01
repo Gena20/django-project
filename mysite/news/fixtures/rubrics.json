@@ -1,0 +1,30 @@
+[
+  {
+    "model": "news.Rubric",
+    "pk": 1,
+    "fields": {
+      "name": "Classification problems"
+    }
+  },
+  {
+    "model": "news.Rubric",
+    "pk": 2,
+    "fields": {
+      "name": "Image processing"
+    }
+  },
+  {
+    "model": "news.Rubric",
+    "pk": 3,
+    "fields": {
+      "name": "Pattern recognition"
+    }
+  },
+  {
+    "model": "news.Rubric",
+    "pk": 4,
+    "fields": {
+      "name": "Biometrics investigations"
+    }
+  }
+]
