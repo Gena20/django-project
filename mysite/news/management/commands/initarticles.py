@@ -36,16 +36,16 @@ class Command(BaseCommand):
 
         try:
             rubric = Rubric.objects.get(pk=article_data['rubNum'])
+            article.rubric = rubric
         except Rubric.DoesNotExist:
             CommandError('Rubric "%s" does not exist' % article_data['rubNum'])
             return
-        article.rubric = rubric
 
+        hashtag_id = randrange(1, 13)
         try:
-            hashtag_id = randrange(1, 13)
             hashtag = Hashtag.objects.get(pk=hashtag_id)
+            article.hashtags.add(hashtag)
         except Hashtag.DoesNotExist:
             CommandError('Hashtag "%s" does not exist' % hashtag_id)
-        article.hashtags.add(hashtag)
 
         article.save()
