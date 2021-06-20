@@ -3,8 +3,14 @@ from django.db import models
 class Rubric(models.Model):
     name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.name
+
 class Hashtag(models.Model):
     name = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name
 
 class Article(models.Model):
     title = models.CharField(max_length=255)

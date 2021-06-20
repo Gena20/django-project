@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <div class="row">
+
+        <h1>Новости науки</h1>
+    </div>
+{% endblock %}
+
+{% load static %}
+{% block section %}
+
+    <div class="section_main">
+
+        <div class="row">
+
+            <section class="eight columns">
+                {% for article in articles %}
+                <article class="blog_post">
+
+                    <div class="three columns">
+                        <a href="#" class="th"><img src="{% static 'images/a1.jpg' %}" alt="desc"/></a>
+                    </div>
+                    <div class="nine columns">
+                        <a href="#"><h4>{{ article.title }}</h4></a>
+                        <p>Ключевые слова: {{ article.keywords}}</p>
+                    </div>
+
+                </article>
+                {% endfor %}
+            </section>
+
+
+        </div>
+
+    </div>
+{% endblock %}
